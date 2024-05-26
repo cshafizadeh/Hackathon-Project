@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true; // Prevent Rigidbody from rotating with physics forces
     }
