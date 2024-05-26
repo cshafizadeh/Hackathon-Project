@@ -12,6 +12,7 @@ TagManager:
   - button f1
   - button f6
   - Beaver
+  - Collectible
   layers:
   - Default
   - TransparentFX
