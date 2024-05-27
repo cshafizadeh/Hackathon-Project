@@ -322,69 +322,6 @@ MonoBehaviour:
   pointValue: 5
   highlightDistance: 5
   outlineMaterial: {fileID: 2100000, guid: 6b3602b92623f43b2812d06daaa5d714, type: 2}
---- !u!1001 &90360932
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1364956993708772, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_Name
-      value: Coffee cup Prefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 92.89187
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.6260745
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 52.837658
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4922469374407738, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1516638708691174, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1901418663}
-    - targetCorrespondingSourceObject: {fileID: 1516638708691174, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1901418669}
-  m_SourcePrefab: {fileID: 100100000, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
 --- !u!1 &95496958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1394732891502828, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
@@ -5173,41 +5110,6 @@ MonoBehaviour:
   pointValue: 10
   highlightDistance: 5
   outlineMaterial: {fileID: 2100000, guid: 6b3602b92623f43b2812d06daaa5d714, type: 2}
---- !u!1 &1901418658 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1516638708691174, guid: a42b76a8ae68dad4fb4fea3eda1ed3d9, type: 3}
-  m_PrefabInstance: {fileID: 90360932}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1901418663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901418658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f55fafe938842549e290bf81397c79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointValue: 10
-  highlightDistance: 5
-  outlineMaterial: {fileID: 2100000, guid: 6b3602b92623f43b2812d06daaa5d714, type: 2}
---- !u!114 &1901418669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901418658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f55fafe938842549e290bf81397c79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointValue: 10
-  highlightDistance: 5
-  outlineMaterial: {fileID: 0}
 --- !u!1 &1932735434 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1304109404813532, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
@@ -5610,5 +5512,4 @@ SceneRoots:
   - {fileID: 521955629}
   - {fileID: 877906269}
   - {fileID: 1342411296}
-  - {fileID: 90360932}
   - {fileID: 1528245917}
