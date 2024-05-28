@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bbbd6e47d2b40c9907e3220e07a459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
   mouseSensitivity: 300
   jumpForce: 50
   cameraTransform: {fileID: 487368716}
@@ -2930,7 +2930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 191592439}
-  Beaver: {fileID: 0}
+  Beaver: {fileID: 633981996}
   endScreenSceneName: GameOver
   beaverAudioSource: {fileID: 0}
   maxHearingDistance: 20
@@ -3734,7 +3734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 191592439}
-  Beaver: {fileID: 0}
+  Beaver: {fileID: 877906267}
   endScreenSceneName: GameOver
   beaverAudioSource: {fileID: 0}
   maxHearingDistance: 20
@@ -5180,7 +5180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!154 &1528245915
 TerrainCollider:
   m_ObjectHideFlags: 0

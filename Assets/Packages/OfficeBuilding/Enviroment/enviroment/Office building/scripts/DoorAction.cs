@@ -10,7 +10,7 @@ public class DoorAction : MonoBehaviour {
         playerPoints = GetComponent<PlayerPoints>();
         if (playerPoints == null)
         {
-            Debug.LogError("PlayerPoints script not found on player.");
+            Debug.Log("PlayerPoints script not found on player.");
         }
     }
 
