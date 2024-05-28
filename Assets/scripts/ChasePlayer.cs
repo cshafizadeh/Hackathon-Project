@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class ChasePlayer : MonoBehaviour
 {
-
     public Transform Player;
     public GameObject Beaver;
     private NavMeshAgent agent;
@@ -53,6 +52,14 @@ public class ChasePlayer : MonoBehaviour
         else
         {
             beaverAudioSource.volume = 0;
+        }
+    }
+
+    void OnTriggerEnter(Collider ChasePlayer)
+    {
+        if (ChasePlayer.CompareTag("Player"))
+        {
+            FindObjectOfType<GameOverManager>().EndGame();
         }
     }
 }
