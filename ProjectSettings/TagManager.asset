@@ -14,6 +14,7 @@ TagManager:
   - Beaver
   - Collectible
   - Ground
+  - Hit
   layers:
   - Default
   - TransparentFX

@@ -92,7 +92,7 @@ public class ChasePlayer : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Hit"))
         {
             SceneManager.LoadScene(endScreenSceneName);
         }
