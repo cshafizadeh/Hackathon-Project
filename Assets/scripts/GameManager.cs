@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public int pointsNeeded = 100;
     void Start()
     {
         // Hide the cursor and lock it to the center of the screen
