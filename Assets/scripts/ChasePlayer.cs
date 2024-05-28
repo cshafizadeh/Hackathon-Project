@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ChasePlayer : MonoBehaviour
@@ -9,6 +10,7 @@ public class ChasePlayer : MonoBehaviour
     public Transform Player;
     public GameObject Beaver;
     private NavMeshAgent agent;
+    public string endScreenSceneName = "GameOver";
 
     public AudioSource beaverAudioSource; // Reference to the AudioSource component
     public float maxHearingDistance = 5f; // Maximum distance at which the sound can be heard
@@ -59,7 +61,7 @@ public class ChasePlayer : MonoBehaviour
     {
         if (ChasePlayer.CompareTag("Player"))
         {
-            FindObjectOfType<GameOverManager>().EndGame();
+            SceneManager.LoadScene(endScreenSceneName);
         }
     }
 }
