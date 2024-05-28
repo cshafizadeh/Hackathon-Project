@@ -1,19 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-//[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5.0f;
     public float mouseSensitivity = 100.0f;
+    public float jumpForce = 5.0f;
+    public Transform cameraTransform;
 
     private Rigidbody rb;
     private float verticalLookRotation = 0.0f;
+    private bool isGrounded;
 
     void Start()
     {
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked; // Lock the cursor to the game window
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true; // Prevent Rigidbody from rotating with physics forces
     }
@@ -29,7 +31,13 @@ public class PlayerMovement : MonoBehaviour
         verticalLookRotation -= mouseY;
         verticalLookRotation = Mathf.Clamp(verticalLookRotation, -90f, 90f);
 
-        Camera.main.transform.localRotation = Quaternion.Euler(verticalLookRotation, 0, 0);
+        cameraTransform.localRotation = Quaternion.Euler(verticalLookRotation, 0, 0);
+
+        // Jumping
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
     }
 
     void FixedUpdate()
@@ -40,5 +48,21 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * strafe + transform.forward * translation;
         rb.MovePosition(rb.position + move);
+    }
+
+    void OnCollisionStay(Collision collision)
+    {
+        if (collision.collider.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.collider.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 }
