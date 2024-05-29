@@ -13,10 +13,10 @@
 <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/908/207/datas/gallery.jpg"/>
 
 <h2>Background</h2>
-This project was created to complete in BeaverHacks Spring 2024. The theme for this hackathon was "retro", so our team decided to create a low poly horror game where the user is in an abandoned office building, and must collect office supplies while being chased by killer beavers!
+This project was created to compete in BeaverHacks Spring 2024. The theme for this hackathon was "retro", so our team decided to create a low poly horror game where the user is in an abandoned office building, and must collect office supplies while being chased by killer beavers!
 
 <h2>Inspiration</h2>
-The retro theme of BeaverHacks Spring 2024 inspired us to create Beaver-Breakout, a nostalgic game reminiscent of the classic arcade games we grew up with. We wanted to evoke the same excitement and simplicity that defined early video games, while adding modern twists to keep it engaging.
+The retro theme of BeaverHacks Spring 2024 inspired us to create Beaver-Breakout, a nostalgic game reminiscent of the classic arcade games we grew up with. We wanted to evoke the same excitement and simplicity that defined early video games while adding modern twists to keep it engaging.
 
 <h2>What We Learned</h2>
 Throughout the development of Beaver-Breakout, we gained valuable experience in game design and development using Unity. We learned how to implement player mechanics, manage game states, and create an immersive environment with shaders and animations. Additionally, we improved our skills in C# scripting and debugging complex interactions within the game.
