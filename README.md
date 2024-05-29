@@ -1,4 +1,4 @@
-<h1>Unity Hackathon Project</h1>
+<h1 align="center">Unity Hackathon Project</h1>
 
 <div align="center">
   
