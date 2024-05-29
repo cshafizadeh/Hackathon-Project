@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc74a636e517456aab05ec4ee8df97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsRequiredToOpen: 100
+  pointsRequiredToOpen: 1000
 --- !u!1 &333452912 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1464678471605634, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
@@ -4652,7 +4652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc74a636e517456aab05ec4ee8df97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsRequiredToOpen: 100
+  pointsRequiredToOpen: 1000
 --- !u!1 &1332268638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1533442881192256, guid: e2e6970f9dbe45743858950d9b85475f, type: 3}
